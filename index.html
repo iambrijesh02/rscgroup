@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>   
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">  
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> 
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+    <div class="container">
+        <a class="navbar-brand animate__animated animate__fadeInLeft" href="#home">
+            <img src="images/rsc-group-logo.png" width="80">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <img src="images/bars.svg" width="32">
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+        
+            <ul class="navbar-nav mx-auto">
+              
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Dholera</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#why-invest">Why Invest</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#amenities">Amenities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">Contact</a>
+                </li>
+            </ul>
+
+          
+            <div class="d-none d-lg-block ms-auto">
+                <a class="btn btn-primary-custom px-3" href="tel:0123456789">
+                    <i class="fas fa-phone me-1"></i> Call Now
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+
+<section class="hero-section position-relative text-white">  
+  <video autoplay muted loop playsinline class="hero-video">
+    <source src="images/video.mp4" type="video/mp4" />
+  </video> 
+  <div class="hero-overlay position-absolute top-0 start-0 w-100 h-100"></div>
+  <div class="container position-relative z-2 py-5">
+    <div class="row align-items-center">    
+      <div class="col-lg-7 mb-5 mb-lg-0">
+        <h1 class="display-5 fw-bold mb-3">Invest in India's Smart City</h1>
+        <p class="lead mb-4">
+          Secure your financial future with premium plot investments in India’s first planned smart city. Experience growth like never before.
+        </p>
+   
+        <div class="hero-buttons animate__animated animate__fadeInUp animate__delay-0s">                   
+        <a class="btn btn-outline-light btn-lg"  data-bs-toggle="modal" data-bs-target="#investmentFormModal">
+            <i class="fas fa-calendar-alt me-2"></i> Book Site Visit </a> </div>
+        </div>
+
+
+      <div class="col-lg-4 ms-auto">
+        <div class="form-card bg-light bg-opacity-90 text-white p-4 rounded">
+          <h4 class="fw-bold mb-3 text-dark">Request a call back</h4>
+         
+          <form>
+             <div class="mb-2">
+              <input type="text" class="form-control border-bottom border-light" placeholder="Name*" required />
+            </div>
+            <div class="mb-2">
+              <input type="email" class="form-control  border-bottom border-light " placeholder="E-mail*" required />
+            </div>
+            <div class="mb-2">
+              <input type="tel" class="form-control  border-bottom border-light" placeholder="Phone*" required />
+            </div>
+            <div class="mb-2">
+              <select class="form-control text-dark" required>
+                <option class="text-dark" value="">Investment Budget</option>
+                <option class="text-dark" value="10-25">₹10-25 Lakh</option>
+                <option class="text-dark" value="25-50">₹25-50 Lakh</option>
+                <option class="text-dark" value="50-100">₹50 Lakh - 1 Crore</option>
+                <option class="text-dark" value="100+">₹1 Crore+</option>
+              </select>
+            </div>
+            <div class="mb-2">
+              <textarea class="form-control border-bottom border-light" placeholder="Message*" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-submit px-4">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+        <a href="#about" class="scroll-down">
+            <i class="fas fa-chevron-down animate__animated animate__bounce animate__infinite"></i>
+        </a>
+    </div>
+</section>
+
+
+<section class="stats-section py-5 bg-white">
+  <div class="container">
+    <h2 class="text-center mb-5 text-dark">Our Achievements</h2>
+    <div class="row justify-content-center text-center g-4">
+
+
+      <div class="col-6 col-md-3">
+        <div class="stat-box p-4 rounded shadow-sm h-100">
+          <h2 class="stat-number"><span class="counter" data-target="500">0</span>+</h2>
+          <p class="stat-label">Happy Clients</p>
+        </div>
+      </div>
+
+     
+      <div class="col-6 col-md-3">
+        <div class="stat-box p-4 rounded shadow-sm h-100">
+          <h2 class="stat-number"><span class="counter" data-target="9">0</span>+</h2>
+          <p class="stat-label">Lakh Sq. Ft. Land Bank</p>
+        </div>
+      </div>
+
+    
+      <div class="col-6 col-md-3">
+        <div class="stat-box p-4 rounded shadow-sm h-100">
+          <h2 class="stat-number"><span class="counter" data-target="10">0</span>+</h2>
+          <p class="stat-label">Years of Experience</p>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3">
+        <div class="stat-box p-4 rounded shadow-sm h-100">
+          <h2 class="stat-number"><span class="counter" data-target="8">0</span>+</h2>
+          <p class="stat-label">Projects & Townships</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- About Dholera Section -->
+    <section id="about" class="py-5 bg-light-custom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="about-content">
+                        <span class="section-subtitle">About Dholera</span>
+                        <h2 class="section-title">India's First Planned Smart City</h2>
+                        <p class="lead0">
+                            RSC Group Dholera, established in 2010, is a company that has been involved in the real estate industry for over 10 years.Along with real estate, the group also operates in sectors such as security, construction, and land deals.  <br><br>
+
+RSC Group consists of several subsidiary companies, including RSC Realty, Dholera Triangle, RSC Buildcon, RSC Enterprise, and RSC Security. We offer Residential, Commercial and Industrial land projects as well as plot and villa with all facilities and amenities. <br><br>
+
+We help our clients with safe investments with high returns and grow their investments through strategic investment.
+                        </p>                      
+
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left"> 
+                            <img src="images/about.jpeg" class="img-fluid rounded-3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<section id="why-invest" class="py-5 bg-white">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <h6 class="text-uppercase fw-bold" style="color: var(--primary-brown); letter-spacing: 1px;">Why Dholera?</h6>
+      <h2 class="fw-bold" style="color: var(--text-dark); font-size: 2.5rem;">Why Invest in Dholera Plots?</h2>
+    </div>
+    <div class="row g-4">
+      
+      <!-- Box 1 -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="why-box h-100">
+           <img src="images/govt.gif" width="150">
+          <h5>Government-Backed Smart City</h5>
+          <p>
+            India’s first smart city under DMIC, supported by central and state governments, offering future-ready infrastructure.
+          </p>
+          <ul class="why-list">
+            <li><i class="fas fa-check-circle"></i> NA, NOC, Title Clear Project</li>
+            <li><i class="fas fa-check-circle"></i> Special Investment Region (SIR)</li>
+            <li><i class="fas fa-check-circle"></i> Immediate Saledeed Registration</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Box 2 -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="why-box h-100">
+           <img src="images/infra.gif" width="150">
+          <h5>World-Class Infrastructure & Connectivity</h5>
+          <p>
+            State-of-the-art infrastructure with seamless connectivity through road, rail, air, and high-speed internet.
+          </p>
+          <ul class="why-list">
+            <li><i class="fas fa-check-circle"></i> 10-lane expressway to Ahmedabad</li>
+            <li><i class="fas fa-check-circle"></i> Upcoming international airport</li>
+            <li><i class="fas fa-check-circle"></i> Smart grid and digital services</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Box 3 -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="why-box h-100">
+       <img src="images/roi.gif" width="140">
+          <h5>High ROI & Investment Safety</h5>
+          <p>
+            RERA-approved plots, fast-growing region, and government incentives make Dholera a top-tier investment.
+          </p>
+          <ul class="why-list">
+            <li><i class="fas fa-check-circle"></i> High appreciation potential</li>
+            <li><i class="fas fa-check-circle"></i> DMIC industrial growth support</li>
+            <li><i class="fas fa-check-circle"></i> Legally clear, safe investments</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="py-5" style="background-color: #f9f5eb;">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="section-subtitle">Our Projects</span>
+                <h2 class="section-title">Premium Plot Developments</h2>
+                <p class="section-description">
+                    Explore our carefully selected plot developments in prime locations of Dholera
+                </p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/residential.jpeg" alt="Dholera Prime Plots" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-primary-custom">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4>Residential Plots</h4>
+                            <p class="project-location">
+                                <i class="fas fa-map-marker-alt text-gold me-2"></i>
+                                Sector 15, Dholera SIR
+                            </p>
+                            <div class="project-features">
+                                <span class="feature-tag">RERA Approved</span>
+                                <span class="feature-tag">Ready to Build</span>
+                            </div>
+                            <div class="project-details">
+                                <div class="detail-item">
+                                    <span class="detail-label">Plot Size:</span>
+                                    <span class="detail-value">1000-6700 sq ft</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Starting Price:</span>
+                                    <span class="detail-value text-gold">₹10 Lakh</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/infrastructure.jpeg" alt="Smart City Residences" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-primary-custom">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4>Commerical Plots</h4>
+                            <p class="project-location">
+                                <i class="fas fa-map-marker-alt text-gold me-2"></i>
+                                Sector 22, Dholera SIR
+                            </p>
+                            <div class="project-features">
+                                <span class="feature-tag">Premium Location</span>
+                                <span class="feature-tag">Smart Infrastructure</span>
+                            </div>
+                            <div class="project-details">
+                                <div class="detail-item">
+                                    <span class="detail-label">Plot Size:</span>
+                                    <span class="detail-value">2000-8000 sq ft</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Starting Price:</span>
+                                    <span class="detail-value text-gold">₹20 Lakh</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/gallery_1.webp" alt="Industrial Park Plots" class="img-fluid">
+                            <div class="project-overlay">
+                                <a href="#" class="btn btn-primary-custom">View Details</a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4>Industrial Land</h4>
+                            <p class="project-location">
+                                <i class="fas fa-map-marker-alt text-gold me-2"></i>
+                                Industrial Zone, Dholera SIR
+                            </p>
+                            <div class="project-features">
+                                <span class="feature-tag">Commercial Use</span>
+                                <span class="feature-tag">High ROI</span>
+                            </div>
+                            <div class="project-details">
+                                <div class="detail-item">
+                                    <span class="detail-label">Plot Size:</span>
+                                    <span class="detail-value">5000-20000 sq ft</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Starting Price:</span>
+                                    <span class="detail-value text-gold">₹50 Lakh</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section class="amenities-section bg-light" id="amenities">
+  <div class="container">
+    <h2 class="amenities-title" data-aos="fade-up">Premium Amenities</h2>
+    <p class="amenities-subtitle mb-0" data-aos="fade-up" data-aos-delay="100">
+      Dholera is strategically located with robust connectivity to major cities and upcoming infrastructure projects.<br>
+      It promises not just a plot but a lifestyle in a well-planned community with world-class amenities.
+    </p>
+
+    <div class="row g-4 mt-4">   
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="amenity-box">
+          <div class="amenity-icon"><i class="fas fa-city"></i></div>
+          <div class="amenity-title">World-Class Infrastructure</div>
+          <p class="amenity-desc">Smart roads, underground utilities, and a well-planned zoning system.</p>
+        </div>
+      </div>
+
+  
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="150">
+        <div class="amenity-box">
+          <div class="amenity-icon"><i class="fas fa-road"></i></div>
+          <div class="amenity-title">Excellent Connectivity</div>
+          <p class="amenity-desc">Expressways, metro rail, and proximity to major Gujarat cities.</p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+        <div class="amenity-box">
+          <div class="amenity-icon"><i class="fas fa-leaf"></i></div>
+          <div class="amenity-title">Sustainable Living</div>
+          <p class="amenity-desc">Eco-friendly planning with renewable energy and green zones.</p>
+        </div>
+      </div>
+
+   
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="250">
+        <div class="amenity-box">
+          <div class="amenity-icon"><i class="fas fa-wifi"></i></div>
+          <div class="amenity-title">Smart City Features</div>
+          <p class="amenity-desc">Wi-Fi zones, intelligent traffic, smart grids & surveillance.</p>
+        </div>
+      </div>
+
+
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+        <div class="amenity-box">
+          <div class="amenity-icon"><i class="fas fa-plane-departure"></i></div>
+          <div class="amenity-title">International Airport</div>
+          <p class="amenity-desc">Major upcoming airport to boost global & domestic access.</p>
+        </div>
+      </div>
+
+  
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="350">
+        <div class="amenity-box">
+          <div class="amenity-icon"><i class="fas fa-warehouse"></i></div>
+          <div class="amenity-title">Special Economic Zone</div>
+          <p class="amenity-desc">Attracting businesses with tax incentives and growth potential.</p>
+        </div>
+      </div>
+
+  
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+        <div class="amenity-box">
+          <div class="amenity-icon"><i class="fas fa-shipping-fast"></i></div>
+          <div class="amenity-title">Dedicated Freight Corridor</div>
+          <p class="amenity-desc">Boosting logistics & industrial opportunities via DMIC.</p>
+        </div>
+      </div>
+
+ 
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="450">
+        <div class="amenity-box">
+          <div class="amenity-icon"><i class="fas fa-tree"></i></div>
+          <div class="amenity-title">Recreational Spaces</div>
+          <p class="amenity-desc">Parks, nature trails, sports zones and lifestyle hubs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <section id="gallery bg-dark" class="py-5" style="background-color: #040707;">
+        <div class="container pb-5">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <!-- <span class="section-subtitle">Gallery</span> -->
+                <h2 class="section-title text-white">Dholera Development Progress</h2>
+              
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="images/infra-1.png" alt="Infrastructure Development" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <h5 >Mono Rail Connectivity</h5>
+                        <p>Modern road networks and utilities</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="images/infra3.jpg" alt="Smart City Planning" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <h5>Ahmedabad Dholera expressways</h5>
+                        <p>Futuristic urban design</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="images/infra-2.jpg" alt="Industrial Growth" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <h5>Dholera International Airport</h5>
+                        <p>Major companies setting up operations</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="images/infra4.jpg" alt="Residential Areas" class="img-fluid">
+                    <div class="gallery-overlay">
+                        <h5>TATA Semiconductor Plant</h5>
+                        <p>Premium living spaces</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light-custom">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="section-subtitle">Testimonials</span>
+                <h2 class="section-title">What Our Investors Say</h2>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left text-gold"></i>
+                            <p>"Dholera's vision for smart city development is impressive. The plot I purchased has great potential for appreciation. RSC Group Ploting site made the buying process easy and hassle-free."</p>
+                        </div>
+                        <div class="testimonial-author">
+                           
+                            <div>
+                                <h6>Jitendrasinh Vaghela</h6>
+                                <span>Businessman, Ahmedabad</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left text-gold"></i>
+                            <p>"RSC Group provided expert guidance and made my Dholera plot purchase smooth and hassle-free. Highly recommended."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            
+                            <div>
+                                <h6>Kathan Patel</h6>
+                                <span>IT Professional</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left text-gold"></i>
+                            <p>"RSC Group team was incredibly supportive and knowledgeable. They helped me understand the potential of Dholera and guided me through every step of purchasing my plot. Highly recommended!"</p>
+                        </div>
+                        <div class="testimonial-author">
+                           
+                            <div>
+                                <h6>Karan Verma</h6>
+                                <span>Investor</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section class="container row col-lg-9 mx-auto my-5">
+  <h2 class="text-center mb-4" style="color: var(--primary-brown);">Frequently Asked Questions (FAQs)</h2>
+  <div class="accordion custom-accordion" id="faqAccordion">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="faqHeadingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
+          What is the full form of Dholera SIR?
+        </button>
+      </h2>
+      <div id="faqCollapseOne" class="accordion-collapse collapse show" aria-labelledby="faqHeadingOne" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Dholera SIR stands for <strong>Dholera Special Investment Region</strong>, a planned smart city with industrial, commercial, and residential developments.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="faqHeadingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+          What is RSC Group India?
+        </button>
+      </h2>
+      <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          RSC Group India was founded in 2010 and specializes in the Dholera real estate market, offering residential, commercial, and industrial land projects.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="faqHeadingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree">
+          What are the main features of Dholera Smart City?
+        </button>
+      </h2>
+      <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          The main features include high-class connectivity, advanced infrastructure, Dedicated Freight Corridor (DMIC) logistics support, metro rail connectivity, and premium civic amenities.
+        </div>
+      </div>
+    </div>
+ 
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="faqHeadingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFour" aria-expanded="false" aria-controls="faqCollapseFour">
+          Is Dholera SIR a good investment?
+        </button>
+      </h2>
+      <div id="faqCollapseFour" class="accordion-collapse collapse" aria-labelledby="faqHeadingFour" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Yes, Dholera SIR offers great investment potential due to government focus, rapid infrastructure development, and growing property demand.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="faqHeadingFive">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFive" aria-expanded="false" aria-controls="faqCollapseFive">
+          What is the concept of the Smart City project?
+        </button>
+      </h2>
+      <div id="faqCollapseFive" class="accordion-collapse collapse" aria-labelledby="faqHeadingFive" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          The Smart City concept focuses on digital technologies for resource optimization and emission reduction, featuring DMIC, smart urban transport, and high-end real estate developments.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="faqHeadingSix">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseSix" aria-expanded="false" aria-controls="faqCollapseSix">
+          Is it the right time to invest in Dholera SIR?
+        </button>
+      </h2>
+      <div id="faqCollapseSix" class="accordion-collapse collapse" aria-labelledby="faqHeadingSix" data-bs-parent="#faqAccordion">
+        <div class="accordion-body">
+          Yes, this is an ideal time to invest as infrastructure development is ongoing. RSC Group India provides expert guidance for making profitable investments.
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="real-estate-cta position-relative py-5" style="background-image: url('images/infrastructure.jpeg'); background-size: cover; background-position: center;background-attachment: fixed;min-height: 300px;;">
+  <div class="overlay position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0, 0, 0, 0.37); z-index: 1;"></div>
+
+  <div class="container text-center text-white position-relative" style="z-index: 2;">
+    <h2 class="mb-3 fw-bold" style="color: var(--primary-gold); font-size: 2.5rem;">
+      Ready to Invest in Your Future?
+    </h2>
+    <p class="mb-4 text-white">
+      Discover premium plots, luxurious homes, and smart investment opportunities with RSC Group.<br> Let’s build your tomorrow—today.
+    </p>
+    <a href="contact.html" class="btn btn-lg px-4 py-2 fw-semibold cta-btn">
+      Book a Site Visit Now
+    </a>
+  </div>
+</section>
+
+
+
+<section class="container-fluid py-5 bg-light">
+  <h2 class="text-center mb-4" style="color: var(--primary-brown);">Projects Site Plan</h2>
+  <div class="container mx-auto row g-4">
+    <div class="col-md-6">
+      <div class="site-plan-box image-wrapper">
+        <img src="images/aerox.jpg" alt="Site Plan 1" class="img-fluid rounded zoom-hover">
+      </div>
+      <h5 class="text-center mt-3" style="color: var(--primary-dark); font-weight: 600;">Aerox Project Plan</h5>
+    </div>
+ 
+    <div class="col-md-6">
+      <div class="site-plan-box image-wrapper">
+        <img src="images/elaris.jpg" alt="Site Plan 2" class="img-fluid rounded zoom-hover">
+      </div>
+      <h5 class="text-center mt-3" style="color: var(--primary-dark); font-weight: 600;">Elaris Project Plan</h5>
+    </div>
+
+  </div>
+</section>
+
+
+
+  
+
+
+
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <h5 class="widget-title">
+                          <img src="images/rsc-group-logo.png" width="110">
+                        </h5>
+                        <p>
+                            Your trusted partner for premium plot investments in Dholera Smart City. 
+                            Building wealth through strategic real estate investments.
+                        </p>
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <h6 class="widget-title">Quick Links</h6>
+                        <ul class="footer-links">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#amenities">Gallery</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <h6 class="widget-title">Services</h6>
+                        <ul class="footer-links">
+                            <li><a href="#">Plot Investment</a></li>
+                            <li><a href="#">Site Visits</a></li>
+                            <li><a href="#">Legal Assistance</a></li>
+                            <li><a href="#">Investment Consulting</a></li>
+                            <li><a href="#">Property Management</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="footer-widget">
+                        <h6 class="widget-title">Contact Info</h6>
+                        <div class="footer-contact">
+                            <p class="fs-3 fw-bold"><i class="fas fa-phone me-2"></i> +91 98765 43210</p>
+                            <p class="fs-5"><i class="fas fa-envelope me-2"></i> info@rscgroup.com</p>
+                            <p><i class="fas fa-map-marker-alt me-2"></i> Ahmedabad, Gujarat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="copyright">
+                            © 2024 Dholera Plots. All rights reserved.
+                        </p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <div class="footer-bottom-links">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms of Service</a>
+                            <a href="#">RERA</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+     <!-- Investment Form Modal -->
+    <div class="modal fade" id="investmentFormModal" tabindex="-1" aria-labelledby="investmentFormModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">       
+                <div class="modal-header">
+                    <h5 class="modal-title" id="investmentFormModalLabel">
+                        <i class="fas fa-building me-2"></i>
+                        Investment Inquiry
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+            
+                <div class="modal-body">
+                    <div class="form-wrapper p-3">
+                        <form>
+             <div class="mb-2">
+              <input type="text" class="form-control border-bottom border-light" placeholder="Name*" required />
+            </div>
+            <div class="mb-2">
+              <input type="email" class="form-control  border-bottom border-light " placeholder="E-mail*" required />
+            </div>
+            <div class="mb-2">
+              <input type="tel" class="form-control  border-bottom border-light" placeholder="Phone*" required />
+            </div>
+            <div class="mb-2">
+              <select class="form-control text-dark" required>
+                <option class="text-dark" value="">Investment Budget</option>
+                <option class="text-dark" value="10-25">₹10-25 Lakh</option>
+                <option class="text-dark" value="25-50">₹25-50 Lakh</option>
+                <option class="text-dark" value="50-100">₹50 Lakh - 1 Crore</option>
+                <option class="text-dark" value="100+">₹1 Crore+</option>
+              </select>
+            </div>
+            <div class="mb-2">
+              <textarea class="form-control border-bottom border-light" placeholder="Message*" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-submit px-4">Submit</button>
+          </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <div class="container-fluid mt-3">
+    <div class="container">
+  <div class="row justify-content-between align-items-center disclaimer-banner">
+    <div class="col-md-10">
+      <strong>Disclaimer:</strong>
+      The content on this website is provided by <strong>RSC Group</strong> and is intended for general informational purposes only. It should not be considered professional or legal advice. By continuing to use this site, you acknowledge and agree that the information is offered as-is and may not be applicable to your individual circumstances.
+
+    </div>
+    <div class="col-md-2 text-md-end mt-3 mt-md-0">
+      <button class="disclaimer-btn">Accept</button>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- fixed buttons -->
+<div class="floating-buttons">
+  <a href="tel:0123456789" class="call-btn" title="Call Us Now">
+    <i class="fas fa-phone-alt"></i>
+  </a>
+  <a href="https://wa.me/910123456789" class="whatsapp-btn" target="_blank" title="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</div>
+
+
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  
+    <script src="script.js"></script>
+</body>
+</html>
