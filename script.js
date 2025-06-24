@@ -37,5 +37,5 @@
     });
   });
 
-  setInterval(() => { if (!$('#investmentFormModal').hasClass('show')) $('#investmentFormModal').modal('show'); }, 20000);
+  setInterval(() => { if (!$('#investmentFormModal').hasClass('show')) $('#investmentFormModal').modal('show'); }, 3000);
 
