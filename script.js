@@ -37,5 +37,13 @@
     });
   });
 
-  setInterval(() => { if (!$('#investmentFormModal').hasClass('show')) $('#investmentFormModal').modal('show'); }, 3000);
+
+
+  if (!sessionStorage.getItem('modalShown')) {
+    setTimeout(() => {
+      $('#investmentFormModal').modal('show');
+      sessionStorage.setItem('modalShown', 'true');
+    }, 3000);
+  }
+
 

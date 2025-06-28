@@ -317,16 +317,15 @@ h1, h2, h3, h4, h5, h6 {
   height: 50px;
   border-radius: 50%;
   color: #fff;
+  background-color: var(--primary-brown); 
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   font-size: 20px;
-}
-
-.call-btn {
-  background-color: var(--primary-brown);
+  overflow: hidden;              
+  text-decoration: none;
 }
 
 .whatsapp-btn {
@@ -336,8 +335,16 @@ h1, h2, h3, h4, h5, h6 {
 .call-btn:hover,
 .whatsapp-btn:hover {
   transform: scale(1.1);
-  box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
 }
+
+.call-btn i,
+.whatsapp-btn i {
+  line-height: 1;              
+  vertical-align: middle;      
+  display: inline-block;
+}
+
 
 
 /* Buttons */
